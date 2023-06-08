@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3e5f5;
+    /* Нежный фоновый цвет */
+}
+
+.gamebox {
+    width: 700px;
+    padding: 20px;
+    background-color: #fcd6e5;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 25px;
+}
+
+.hint {
+    margin-top: 20px;
+
+}
+
+input[type='text'] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9575cd;
+    /* Цвет кнопок */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7e57c2;
+    /* Цвет кнопок при наведении */
+}
